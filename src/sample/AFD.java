@@ -1,20 +1,19 @@
 package sample;
 
-import guru.nidi.graphviz.attribute.Color;
 import guru.nidi.graphviz.attribute.Label;
-import guru.nidi.graphviz.attribute.Rank;
 import guru.nidi.graphviz.attribute.Shape;
 import guru.nidi.graphviz.engine.Format;
 import guru.nidi.graphviz.engine.Graphviz;
 import guru.nidi.graphviz.model.Graph;
 import guru.nidi.graphviz.model.Node;
-import static guru.nidi.graphviz.model.Factory.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Set;
+
+import static guru.nidi.graphviz.model.Factory.*;
 
 public class AFD {
 
