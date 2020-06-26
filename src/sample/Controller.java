@@ -20,7 +20,6 @@ public class Controller implements Initializable {
     @FXML public Button btnTabela;
     @FXML public Button btnExecuta;
     @FXML public TableView<Integer> myTable;
-    @FXML public TableColumn<Integer, String> indices;
     @FXML public ImageView img;
     @FXML public Label labelPalavra;
 
@@ -36,6 +35,9 @@ public class Controller implements Initializable {
             alfa = fieldAlfabeto.getText();
             numEstados = Integer.parseInt(fieldNumState.getText());
 
+            myTable.getItems().clear();
+            myTable.getColumns().clear();
+
             m = new ArrayList<>();
             for (int i = 0; i < numEstados; i++) m.add(new TreeMap<>());
 
@@ -48,19 +50,20 @@ public class Controller implements Initializable {
 
             List<String> est = new ArrayList<>();
             for (int j = 0; j < numEstados; j++) est.add("q" + j);
+
+            TableColumn <Integer, String> indices = new TableColumn<>();
             indices.setCellValueFactory(cellData -> {
                 Integer rowIndex = cellData.getValue();
                 return new ReadOnlyStringWrapper(est.get(rowIndex));
             });
+            myTable.getColumns().add(indices);
 
             for (int i = 0; i < alfa.length(); i++) {
                 TableColumn<Integer, String> column = new TableColumn<>(String.valueOf(alfa.charAt(i)));
                 column.setCellValueFactory(cellData -> new ReadOnlyStringWrapper());
                 column.setCellFactory(TextFieldTableCell.forTableColumn());
 
-                column.setOnEditCommit(evt -> {
-                    m.get(evt.getRowValue()).put(evt.getTableColumn().getText(), Integer.parseInt(evt.getNewValue()));
-                });
+                column.setOnEditCommit(evt -> m.get(evt.getRowValue()).put(evt.getTableColumn().getText(), Integer.parseInt(evt.getNewValue())));
 
                 myTable.getColumns().add(column);
             }
