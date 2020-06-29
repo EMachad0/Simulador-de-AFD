@@ -5,12 +5,32 @@
       <artifact name="MalditoLfa:jar" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MalditoLfa_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FakeMain.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Table View Clears Itself">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/AFD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AFD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +257,9 @@
       <workItem from="1593111234704" duration="12117000" />
       <workItem from="1593123619908" duration="585000" />
       <workItem from="1593124207506" duration="3306000" />
-      <workItem from="1593182168053" duration="1964000" />
+      <workItem from="1593182168053" duration="2833000" />
+      <workItem from="1593198153436" duration="50000" />
+      <workItem from="1593443041010" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593127719735</created>
@@ -246,17 +268,44 @@
       <option name="project" value="LOCAL" />
       <updated>1593127719735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Table View Clears Itself">
+      <created>1593184374944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593184374944</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Table View Clears Itself">
+      <created>1593184378421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593184378421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Table View Clears Itself" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table View Clears Itself" />
   </component>
   <component name="WindowStateProjectService">
     <state x="132" y="249" width="1652" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593124866949">
@@ -271,10 +320,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="683" y="330" width="525" height="414" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1593183078856" />
-    <state x="499" y="95" width="912" height="887" key="CommitChangelistDialog2" timestamp="1593127719630">
+    <state x="499" y="95" width="912" height="887" key="CommitChangelistDialog2" timestamp="1593184347004">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="499" y="95" width="912" height="887" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1593127719630" />
+    <state x="499" y="95" width="912" height="887" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1593184347004" />
     <state x="705" y="428" width="489" height="219" key="DetectedRootsChooserDialog" timestamp="1593118455182">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -287,22 +336,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="542" y="243" width="745" height="511" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1593118451828" />
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1593184117377">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1593443856575">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1593184117376" />
-    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1593184117375">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1593443856575" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1593443856574">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1593184117375" />
-    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1593184117374">
+    <state width="1874" height="287" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1593443856574" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1593443856574">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1593184117374" />
-    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1593184117376">
+    <state width="1874" height="287" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1593443856574" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1593443856575">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593184117376" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593443856575" />
     <state x="443" y="117" width="1024" height="843" key="SettingsEditor" timestamp="1593183189830">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

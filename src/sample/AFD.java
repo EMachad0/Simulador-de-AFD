@@ -58,7 +58,7 @@ public class AFD {
         ArrayList<Node> nodes = new ArrayList<>();
         for (int i = 0; i < graph.size(); i++) {
             if (estadosFinais.contains(i)) nodes.add(node("q" + i).with(Label.nodeName(), Shape.DOUBLE_CIRCLE));
-            nodes.add(node("q" + i).with(Label.nodeName()));
+            else nodes.add(node("q" + i).with(Label.nodeName()));
         }
 
         Graph g = graph("MdsLfa").directed();

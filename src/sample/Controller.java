@@ -23,7 +23,6 @@ public class Controller implements Initializable {
     @FXML public ImageView img;
     @FXML public Label labelPalavra;
 
-
     private String alfa;
     private int numEstados;
 
@@ -72,12 +71,11 @@ public class Controller implements Initializable {
         btnExecuta.setOnAction(event -> {
             String palavra = fieldPalavra.getText();
 
-            char[] s = fieldEstadosFinais.getText().toCharArray();
+            String[] s = fieldEstadosFinais.getText().split(" ");
 
             Set<Integer> estadosFinais = new TreeSet<>();
-            for (char c : s) {
-                estadosFinais.add((int) c - '0');
-                System.out.println((int) c - '0');
+            for (String c : s) {
+                estadosFinais.add(Integer.valueOf(c));
             }
 
             AFD afd = new AFD(alfa, m, estadosFinais);
